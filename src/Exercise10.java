@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Exercise10 {
     public static void main(String[] args) {
-        DecimalFormat Decimal = new DecimalFormat("#.00");
+        DecimalFormat Decimal = new DecimalFormat("#.##");
         Scanner in = new Scanner(System.in);
         System.out.print("Enter wage: ");
         double Wage = in.nextDouble();
@@ -27,9 +27,9 @@ public class Exercise10 {
         } else if(Wage<0){
             System.out.println("Your wage must be greater than or equal to $0.00/hour");
         } else{
-            System.out.println("You'll make $"+Earnings+" this week.");
+            System.out.println("You'll make $"+Decimal.format(Earnings)+" this week.");
         }
 
-        System.out.println();
+
     }
 }

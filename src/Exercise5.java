@@ -1,10 +1,13 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exercise5 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        DecimalFormat Decimal = new DecimalFormat("#.##");
         System.out.print("Enter a grade: ");
         double NumGrade = in.nextDouble();
+        System.out.println();
 
 
         if (NumGrade >= 89.5 && NumGrade <= 100) {

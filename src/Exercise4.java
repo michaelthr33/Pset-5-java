@@ -1,8 +1,10 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exercise4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        DecimalFormat Decimal = new DecimalFormat("#.##");
         System.out.print("Enter a letter grade: ");
         String LetterGrade = in.next();
         String F = "F";
@@ -18,8 +20,7 @@ public class Exercise4 {
         String AMinus = "A-";
         String A = "A";
         String APlus = "A+";
-
-
+        System.out.println();
 
 
         if (LetterGrade.equals(F) || LetterGrade.equals(F.toLowerCase())) {

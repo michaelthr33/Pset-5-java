@@ -7,6 +7,7 @@ public class Exercise6 {
         String PlayingCard = in.next();
         String Rank ="_";
         String Suit="_";
+        System.out.println();
         if(PlayingCard.length()==2) {
             Rank = PlayingCard.substring(0, 1);
             Suit = PlayingCard.substring(1,2);
@@ -59,11 +60,11 @@ public class Exercise6 {
         }
 
         if (Suit.equals("_") || Rank.equals("_")){
-            System.out.println("That's not a valid card");
+            System.out.println("That's not a valid card.");
         } else if (Suit.equals("Invalid")){
-            System.out.println("That's not a valid suit");
+            System.out.println("That's not a valid suit.");
         } else if (Rank.equals("Invalid")){
-            System.out.println("That's not a valid rank");
+            System.out.println("That's not a valid rank.");
         } else {
             System.out.println(Rank + " of " + Suit +".");
         }

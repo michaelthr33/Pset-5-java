@@ -7,6 +7,7 @@ public class Exercise8 {
         int Value = in.nextInt();
         String Measure = in.next();
         String Matter = "";
+        System.out.println();
 
         if(Measure.contains("F")||Measure.contains("f")){
             if(Value >32 && Value <= 212){
@@ -28,7 +29,7 @@ public class Exercise8 {
         } else{
             Matter = "That's not a valid scale.";
         }
-        System.out.println(Matter);
+        System.out.print(Matter);
 
         System.out.println();
     }

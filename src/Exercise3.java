@@ -3,11 +3,13 @@ import java.util.Scanner;
 public class Exercise3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter an integer: ");
+        System.out.println("Enter three integers.");
+        System.out.println();
+        System.out.print("Enter integer: ");
         double IntOne = in.nextDouble();
-        System.out.print("Enter an integer: ");
+        System.out.print("Enter integer: ");
         double IntTwo = in.nextDouble();
-        System.out.print("Enter an integer: ");
+        System.out.print("Enter integer: ");
         double IntThree = in.nextDouble();
         System.out.println();
 
