@@ -21,6 +21,7 @@ public class Exercise4 {
         String A = "A";
         String APlus = "A+";
         System.out.println();
+        // added line spacing
 
 
         if (LetterGrade.equals(F) || LetterGrade.equals(F.toLowerCase())) {

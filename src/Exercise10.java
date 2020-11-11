@@ -29,7 +29,7 @@ public class Exercise10 {
         } else{
             System.out.println("You'll make $"+Decimal.format(Earnings)+" this week.");
         }
-
+//included decimal.format
 
     }
 }

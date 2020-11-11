@@ -11,6 +11,7 @@ public class Exercise3 {
         double IntTwo = in.nextDouble();
         System.out.print("Enter integer: ");
         double IntThree = in.nextDouble();
+        // corrected user interface
         System.out.println();
 
         if (IntOne > IntTwo && IntTwo > IntThree) {

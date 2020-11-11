@@ -8,7 +8,7 @@ public class Exercise8 {
         String Measure = in.next();
         String Matter = "";
         System.out.println();
-
+//added line spacing
         if(Measure.contains("F")||Measure.contains("f")){
             if(Value >32 && Value <= 212){
                 Matter = "Liquid.";
@@ -33,4 +33,5 @@ public class Exercise8 {
 
         System.out.println();
     }
+
 }

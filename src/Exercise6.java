@@ -8,6 +8,7 @@ public class Exercise6 {
         String Rank ="_";
         String Suit="_";
         System.out.println();
+        //added line spacing
         if(PlayingCard.length()==2) {
             Rank = PlayingCard.substring(0, 1);
             Suit = PlayingCard.substring(1,2);

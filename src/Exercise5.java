@@ -8,6 +8,7 @@ public class Exercise5 {
         System.out.print("Enter a grade: ");
         double NumGrade = in.nextDouble();
         System.out.println();
+        //added line spacing
 
 
         if (NumGrade >= 89.5 && NumGrade <= 100) {
